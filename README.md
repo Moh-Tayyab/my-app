@@ -34,3 +34,39 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+## Routing-Demo
+This is a simple routing demo using Next.js. It includes the following routes:
+- `/`: The home page.
+- `/about`: The about page.
+- `/profile`: The profile page.
+
+## Nested Routes
+This demo also includes nested routes:
+- `/blogs/first`: The first blog.
+- `/blogs/second`: The second blog.
+
+## Dynamic Routes
+This demo also includes dynamic routes:
+- `/products/[productId]`: 
+- `/products/1`: The product with id 1.
+- `/products/2`: The product with id 2.
+- `/products/3`: The product with id 3.
+- `/products/100`: The product with id 100 and so on.
+
+## Nested Dynamic Routes
+This demo also includes nested dynamic routes:
+- `/products/[productsId]/reviews/[reviewsId]`:
+- `/products/3/reviews/10`: Review 10 for product 3.
+- `/products/3/reviews/20`: Review 20 for product 3.
+- `/products/1/reviews/8`: Review 8 for product 1.
+
+## Catch-All-Segments
+This demo also includes catch-all segments:
+- `/docs/[...slug]`:
+- `/docs/nextjs`: The nextjs documentation.
+- `/docs/nextjs/getting-started`: The getting started documentation for nextjs.
+- `/docs/nextjs/advanced-features`: The advanced features documentation for nextjs.
+
+
